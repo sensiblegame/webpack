@@ -71,6 +71,7 @@ module.exports = environment
 
 Finally add `.json` to the list of extensions in `config/webpacker.yml`. Now if you `import()` any `.json` files inside your JavaScript
 they will be processed using `json-loader`. Voila!
+This `json-loader` example usage only, https://webpack.js.org/guides/migrating/#json-loader-is-not-required-anymore
 
 You can also modify the loaders that Webpacker pre-configures for you. We'll update
 the `babel` loader as an example:
